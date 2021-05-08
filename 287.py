@@ -8,7 +8,9 @@ class Solution(object):
         
         count = Counter(nums)
         
+        # fetching all the keys
         keys = count.keys()
+        # fetching maximum occurence value of a key
         max_val = max(count.values())
         
         for key in keys:
