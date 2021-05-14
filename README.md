@@ -43,7 +43,7 @@ Output: 2
 Explanation: n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 2 is the missing number in the range since it does not appear in nums.
 ```
 
-###. Find All Numbers Disappeared in an Array
+### 448. Find All Numbers Disappeared in an Array
 
 Given an array nums of n integers where nums[i] is in the range [1, n], return an array of all the integers in the range [1, n] that do not appear in nums.
 ```
