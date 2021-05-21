@@ -12,13 +12,20 @@ Output: 2
 
 ### 844. Backspace String Compare
 
-Given two strings s and t, return true if they are equal when both are typed into empty text editors. '#' means a backspace character.
+Given two strings *s* and *t*, return true if they are equal when both are typed into empty text editors. 
+'#' means a backspace character.
 Note that after backspacing an empty text, the text will continue empty.
 ```
 Example 1:
 Input: s = "ab#c", t = "ad#c"
 Output: true
 Explanation: Both s and t become "ac".
+
+Example 2:
+
+Input: s = "ab##", t = "c#d#"
+Output: true
+Explanation: Both s and t become "".
 ```
 
 ### 217. Contains Duplicate
@@ -110,7 +117,7 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 
 ### 619. Biggest Single Number
 
-Table my_numbers contains many numbers in column num including duplicated ones.
+Table my_numbers contains many numbers in column *num* including duplicated ones.
 Can you write a SQL query to find the biggest number, which only appears once.
 
 ```
@@ -125,6 +132,7 @@ Can you write a SQL query to find the biggest number, which only appears once.
 | 4 |
 | 5 |
 | 6 | 
+
 For the sample data above, your query should return the following result:
 +---+
 |num|
