@@ -6,6 +6,6 @@ class Solution:
         
         for num in nums:
             if num in arr:
-                arr.remove(num) # removing elements which are in both; thus getting the disappeared ones.
-                    
+            	# removing elements which are in both; thus getting the disappeared ones.
+                arr.remove(num) 
         return list(arr)

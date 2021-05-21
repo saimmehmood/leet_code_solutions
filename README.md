@@ -133,6 +133,7 @@ Can you write a SQL query to find the biggest number, which only appears once.
 | 5 |
 | 6 | 
 
+
 For the sample data above, your query should return the following result:
 +---+
 |num|
