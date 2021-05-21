@@ -17,7 +17,7 @@ class Solution(object):
                 right += 1
                 
             else:
-                # move the left pointer forward
+                # move both left and right pointer forward
                 left = right
                 right += 1
         
