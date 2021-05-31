@@ -67,6 +67,7 @@ def brute_force(nums):
             max_so = sum(arr[i])
             index = i
 
+    # printing maximum value and the subarray
     print(max_so)
     print(arr[index])
 
