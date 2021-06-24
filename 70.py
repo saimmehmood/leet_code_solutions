@@ -8,6 +8,7 @@ class Solution:
         
         arr = [1, 1]
         
+        # choosing n+1 as the base case of n=2 will not work
         for i in range(2, n+1):
             
             # getting the sum of previous two elements in the array: fibonnaci series
