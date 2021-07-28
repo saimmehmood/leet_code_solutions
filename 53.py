@@ -74,6 +74,6 @@ def brute_force(nums):
 nums = [-2,1,-3,4,-1,2,1,-5,4]
 
 
-print(maxSubArraySum(nums))
+#print(maxSubArraySum(nums))
 #maxSubArray(nums)
-#brute_force(nums)
+brute_force(nums)
